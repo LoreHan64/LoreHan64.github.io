@@ -1,6 +1,27 @@
 <!DOCTYPE HTML>
 <body>
   <h2>Hello my friend!</h2>
-  <h3>I am still learning HTML, hope there is one day I can finish this page!</h3>
+  <h3>I am still learning HTML, 
+    hope there is one day 
+    I can finish this page!</h3>
+  <h3>Time(UTC+08:00):</h3>
+  <div id="datetime">Time Loading...</div>
+  <script>
+    function timeFormat() {
+      const now = new Date();
+      const YYYY = now.getFullYear();
+      const MM = string(now.getMonth() + 1).padStart(2, '0');
+      const DD = string(now.getDate()).padStart(2, '0');
+      const hh = string(now.getHours()).padStart(2, '0');
+      const mm = string(now.getMinutes()).padStart(2, '0');
+      const ss = string(now.getSeconds()).padStart(2, '0');
+      return `${YYYY}-${MM}-${DD} {hh}:{mm}:{ss}`;
+    }
+    function timeShow() {
+      document.getElementById('datetime').textContent = timeFormat();  
+    }
+        setInterval(timeShow, 1000);
+        timeShow();
+  </script>
 </body>
 </html>

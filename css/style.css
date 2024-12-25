@@ -1,0 +1,8 @@
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+#btn1 {
+  border-radius: 15px
+}

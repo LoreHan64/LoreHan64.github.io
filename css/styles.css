@@ -1,8 +1,15 @@
+@font-face {
+    src: url(Fonts/LXGWRegular.ttf);
+    font-family: lxgw;
+}
+body {
+    font-family: lxgw;
+}
 nav ul {
-  display: flex;
-  gap: 15px;
-  list-style: none;
+    display: flex;
+    gap: 15px;
+    list-style: none;
 }
 #btn1 {
-  border-radius: 15px
+    border-radius: 15px;
 }

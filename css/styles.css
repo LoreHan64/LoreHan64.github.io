@@ -1,8 +1,8 @@
 @font-face {
-    src: url(fonts/LXGWWenKaiMono-Regular.ttf);
+    src: url(fonts/LXGW-Regular.woff2);
     font-family: lxgw;
 }
-body {
+p {
     font-family: lxgw;
 }
 nav ul {

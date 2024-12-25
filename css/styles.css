@@ -2,7 +2,7 @@
     src: url(fonts/LXGW-Regular.woff2);
     font-family: lxgw;
 }
-p {
+body p {
     font-family: lxgw;
 }
 nav ul {

@@ -14,17 +14,20 @@
   src: url(../fonts/RDPSSSFCC-FangSong.woff2);
   font-family: ejzXiu;
 }
-#ej1 {
+.ej1 {
   font-family: ej1;
 }
-#ej2 {
+.ej2 {
   font-family: ej2;
 }
-#ej3 {
+.ej3 {
   font-family: ejzXiu;
 }
-body p {
-    font-family: lxgw;
+.lxgw {
+  font-family: lxgw;
+}
+#zxbuff {
+    border-bottom: 1px dashed;
 }
 header nav {
     display: flex;

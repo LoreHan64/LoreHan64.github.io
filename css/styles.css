@@ -2,6 +2,20 @@
     src: url(../fonts/LXGW-Regular.woff2);
     font-family: lxgw;
 }
+@font-face {
+  src: url(../fonts/RDPSSSFCC-FangSong.woff2);
+  font-family: ejzXiu;
+}
+@font-face {
+  src: url(../fonts/二简字.woff2);
+  font-family: ej2;
+}
+#ej1 {
+  font-family: ej2;
+}
+#ej2 {
+  font-family: ejzXiu;
+}
 body p {
     font-family: lxgw;
 }

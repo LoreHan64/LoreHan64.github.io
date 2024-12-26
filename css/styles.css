@@ -26,11 +26,11 @@
 body p {
     font-family: lxgw;
 }
-header nav ul {
+header nav {
     display: flex;
     list-style: none;
 }
-header nav ul li {
+header nav a {
   border: 1px solid;
   background-color: #2dd6c2;
   padding: 5px;
@@ -38,10 +38,10 @@ header nav ul li {
   text-align: center;
 }
 @media (min-width: 767px) {
-  header nav ul {
+  header nav {
     gap: 15px;
   }
-  header nav ul li {
+  header nav a {
     border: 1px solid;
     text-align: center;
     border-radius: 15px;

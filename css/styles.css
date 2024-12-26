@@ -37,6 +37,9 @@ header nav a {
   width: calc(100% / 3);
   text-align: center;
 }
+header nav a:hover {
+  background-color: #1f9a8e;
+}
 @media (min-width: 767px) {
   header nav {
     gap: 15px;

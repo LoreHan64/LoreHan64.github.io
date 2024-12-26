@@ -26,16 +26,27 @@
 body p {
     font-family: lxgw;
 }
-nav ul {
+header nav ul {
     display: flex;
-    gap: 15px;
     list-style: none;
 }
-ul li {
+header nav ul li {
   border: 1px solid;
-  border-radius: 10px;
   background-color: #2dd6c2;
   padding: 5px;
+  width: calc(100% / 3);
+  text-align: center;
+}
+@media (min-width: 600px) {
+  header nav ul {
+    gap: 15px;
+  }
+  header nav ul li {
+    border: 1px solid;
+    text-align: center;
+    border-radius: 15px;
+    width: auto;
+  }
 }
 a {
   text-decoration: none;

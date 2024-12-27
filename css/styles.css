@@ -15,8 +15,8 @@
 	font-family: ejzXiu;
 }
 @font-face {
-    src: url(../fonts/方正仿宋简.woff2);
-    font-family: fzfs;
+	src: url(../fonts/方正仿宋简.woff2);
+	font-family: fzfs;
 }
 
 .ttle {
@@ -47,7 +47,7 @@
 }
 
 .fzfs {
-    font-family: fzfs;
+	font-family: fzfs;
 }
 
 .dashed-line {

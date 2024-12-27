@@ -14,7 +14,7 @@
 	src: url(../fonts/RDPSSSFCC-FangSong.woff2);
 	font-family: ejzXiu;
 }
-#ttle {
+.ttle {
 	display: flex;
 	align-items: center;
 }

@@ -14,35 +14,44 @@
 	src: url(../fonts/RDPSSSFCC-FangSong.woff2);
 	font-family: ejzXiu;
 }
+
 .ttle {
 	display: flex;
 	align-items: center;
 }
+
 .pfpic {
 	height: 50px;
 	float: left;
 	margin-right: 10px;
 }
+
 .ej1 {
 	font-family: ej1;
 }
+
 .ej2 {
 	font-family: ej2;
 }
+
 .ej3 {
 	font-family: ejzXiu;
 }
+
 .lxgw {
 	font-family: lxgw;
 }
+
 .dashed-line {
 	border: none;
 	border-bottom: 1px dashed;
 }
+
 header nav {
 	display: flex;
 	list-style: none;
 }
+
 header nav a {
 	flex: 1;
 	border: 1px solid;
@@ -50,9 +59,11 @@ header nav a {
 	padding: 5px;
 	text-align: center;
 }
+
 header nav a:hover {
 	background-color: #1f9a8e;
 }
+
 @media (min-width: 767px) {
 	header nav {
 		gap: 15px;
@@ -64,9 +75,11 @@ header nav a:hover {
 		width: auto;
 	}
 }
+
 a {
 	text-decoration: none;
 }
+
 #btn1 {
 	border-radius: 15px;
 }

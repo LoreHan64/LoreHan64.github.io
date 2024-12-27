@@ -14,6 +14,10 @@
 	src: url(../fonts/RDPSSSFCC-FangSong.woff2);
 	font-family: ejzXiu;
 }
+@font-face {
+    src: url(../fonts/方正仿宋简.woff2);
+    font-family: fzfs;
+}
 
 .ttle {
 	display: flex;
@@ -40,6 +44,10 @@
 
 .lxgw {
 	font-family: lxgw;
+}
+
+.fzfs {
+    font-family: fzfs;
 }
 
 .dashed-line {

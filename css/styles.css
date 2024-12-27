@@ -14,6 +14,11 @@
 	src: url(../fonts/RDPSSSFCC-FangSong.woff2);
 	font-family: ejzXiu;
 }
+.pfpic {
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
 .ej1 {
 	font-family: ej1;
 }

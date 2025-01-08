@@ -13,3 +13,8 @@ function timeShow() {
 }
 setInterval(timeShow, 1000);
 timeShow();
+
+document.querySelector('.menu').addEventListener('click', function() {
+    const nav = document.querySelector('header nav');
+    nav.classList.toggle('active'); // 切換顯示和隱藏
+});

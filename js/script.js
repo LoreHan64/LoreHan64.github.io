@@ -1,3 +1,4 @@
+// 實時時間
 function timeFormat() {
 	const now = new Date();
 	const YYYY = now.getFullYear();
@@ -14,7 +15,8 @@ function timeShow() {
 setInterval(timeShow, 1000);
 timeShow();
 
+//導航欄
 document.querySelector('.menu').addEventListener('click', function() {
     const nav = document.querySelector('header nav');
-    nav.classList.toggle('active'); // 切換顯示和隱藏
+    nav.classList.toggle('active');
 });

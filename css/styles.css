@@ -41,6 +41,7 @@
     cursor: pointer;
     height: 40px;
     width: 40px;
+    -webkit-tap-highlight-color: transparent;
 }
 .ttle .picname .name {
     margin: 0px;

@@ -1,25 +1,3 @@
-@font-face {
-	src: url(/fonts/LXGW-Regular.woff2);
-	font-family: lxgw;
-}
-@font-face {
-	src: url(/fonts/张氏黑体二简字.woff2);
-	font-family: ej1;
-}
-@font-face {
-	src: url(/fonts/BabelStoneErjian2.woff2);
-	font-family: ej2;
-}
-@font-face {
-	src: url(/fonts/RDPSSSFCC-FangSong.woff2);
-	font-family: ejzXiu;
-}
-@font-face {
-	src: url(/fonts/方正仿宋简.woff2);
-	font-family: fzfs;
-}
-
-
 .ej1 {
 	font-family: ej1;
 }
@@ -50,6 +28,7 @@
 	align-items: center;
 	overflow: hidden;
 	justify-content: space-between;
+	padding-top: 8px;
 }
 
 .ttle .picname {
@@ -71,6 +50,14 @@
 	height: 50px;
 	float: left;
 	margin-right: 10px;
+}
+
+body {
+    margin-top: 0px;
+}
+
+hr {
+    border: 1px solid;
 }
 
 header {
@@ -128,4 +115,25 @@ a {
 
 #btn1 {
 	border-radius: 15px;
+}
+
+@font-face {
+	src: url(/fonts/LXGW-Regular.woff2);
+	font-family: lxgw;
+}
+@font-face {
+	src: url(/fonts/张氏黑体二简字.woff2);
+	font-family: ej1;
+}
+@font-face {
+	src: url(/fonts/BabelStoneErjian2.woff2);
+	font-family: ej2;
+}
+@font-face {
+	src: url(/fonts/RDPSSSFCC-FangSong.woff2);
+	font-family: ejzXiu;
+}
+@font-face {
+	src: url(/fonts/方正仿宋简.woff2);
+	font-family: fzfs;
 }

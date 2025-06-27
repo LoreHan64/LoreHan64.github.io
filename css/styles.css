@@ -58,7 +58,7 @@ header nav.active {
     display: block;
 }
 
-header nav ul {
+nav ul {
     display: flex;
 	padding: 0px;
     list-style-type:none;

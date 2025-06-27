@@ -62,6 +62,10 @@ header nav.active {
     list-style-type: none;
 }
 
+.flex {
+    display: flex;
+}
+
 .inline {
     display: flex;
     padding: 0px;

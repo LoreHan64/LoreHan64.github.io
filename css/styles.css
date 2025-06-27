@@ -66,6 +66,10 @@ header nav.active {
     display: flex;
 }
 
+.block {
+    display: block;
+}
+
 .inline {
     display: flex;
     padding: 0px;

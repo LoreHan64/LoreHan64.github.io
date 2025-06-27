@@ -58,10 +58,14 @@ header nav.active {
     display: block;
 }
 
-ul {
+.no-dot {
+    list-style-type: none;
+}
+
+header nav ul {
     display: flex;
 	padding: 0px;
-    list-style-type:none;
+    list-style-type: none;
     overflow: hidden;
 }
 

@@ -51,7 +51,7 @@ header {
     background-color: white;
 }
 header nav {
-  /* display: none; */
+  display: none;
 }
 
 header nav.active {
